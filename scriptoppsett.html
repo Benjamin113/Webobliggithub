@@ -8,11 +8,18 @@
 
         function oppstart() {
             //Kode her...
+            document.getElemntById("sugkuk").onclick = knappen;
 
+        }
+        function knappen () {
+        document.getElementById("svar").innerHTML = "Benjamin er bedre enn de fleste";
+        
         }
     </script>
 </head>
 <body>
+    <button id="sugkuk">Trykk her yo</button>
+    <p id="svar"></p>
     <h1>Hei jeg heter benjamin</h1>
     <P>test</P>
     <p>kalid suger</p>
